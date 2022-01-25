@@ -5,8 +5,6 @@ declare(strict_types = 1);
 
 namespace WebServer\Core;
 
-use WebServer\Core\LoaderResponse;
-
 /**
  * @package greezlu/ws-loader
  */
