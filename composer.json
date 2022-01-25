@@ -1,0 +1,44 @@
+{
+    "name": "greezlu/ws-loader",
+    "description": "Loader",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/greezlu/ws-loader",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "greezlu",
+            "email": "greezlu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-raphf": "*",
+        "ext-propro": "*",
+        "ext-spl": "*",
+        "ext-http": "*"
+    },
+    "keywords": [
+        "php",
+        "curl",
+        "ext-curl",
+        "php-curl",
+        "load",
+        "loader",
+        "downloader",
+        "php-downloader"
+    ],
+    "suggest": {
+        "ext-raphf": "Need for ext-http: https://mdref.m6w6.name/http",
+        "ext-propro": "Need for ext-http: https://mdref.m6w6.name/http",
+        "ext-spl": "Superseded. Need for ext-http: https://mdref.m6w6.name/http"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebServer\\Core\\": "src/Core"
+        }
+    }
+}
